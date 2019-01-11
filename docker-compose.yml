@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  openelevation:
+    container_name: open-elevation
+    image: jeremyvoisin/open-elevation
+    volumes:
+      - ./data:/code/data
+    ports:
+      - 8080:8080
