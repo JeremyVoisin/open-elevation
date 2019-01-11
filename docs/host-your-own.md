@@ -57,7 +57,7 @@ This command:
 2. Exposes port 8080 to forward to the container's port 8080
 3. Runs the default command, which is the server at port 8080
 
-You also can just run 
+Or, with the use of docker-compose, run the following :
 
 ```
 docker-compose up -d
