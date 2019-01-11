@@ -6,7 +6,7 @@ You can freely host your own instance of Open-Elevation. There are two main opti
 First things first, clone the repository and `cd` onto its directory
 
 ```
-git clone http://github.com/Jorl17/open-elevation
+git clone http://github.com/JeremyVoisin/open-elevation
 cd open-elevation
 ```
 
@@ -19,7 +19,7 @@ The Docker image roots itself at `/code/` and expects that all GeoTIFF datafiles
 
 ### Prerequisites: Getting the dataset
 
-Open-Elevation doesn't come with any data of its own, but it offers a set of scripts to get the whole [SRTM 250m dataset](http://gisweb.ciat.cgiar.org/TRMM/SRTM_Resampled_250m/).
+Open-Elevation doesn't come with any data of its own, but it offers a set of scripts to get the whole [SRTM 250m dataset](http://srtm.csi.cgiar.org/srtm-250-resolution/).
 
 #### Whole World
 
@@ -80,7 +80,7 @@ If all goes well, you now have the required dependencies to run Open-Elevation.
 
 ### Prerequisites: Getting the dataset
 
-Open-Elevation doesn't come with any data of its own, but it offers a set of scripts to get the whole [SRTM 250m dataset](http://gisweb.ciat.cgiar.org/TRMM/SRTM_Resampled_250m/).
+Open-Elevation doesn't come with any data of its own, but it offers a set of scripts to get the whole [SRTM 250m dataset](http://srtm.csi.cgiar.org/srtm-250-resolution/).
 
 #### Whole World
 
