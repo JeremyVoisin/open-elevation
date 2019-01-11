@@ -132,7 +132,7 @@ def get_lookup():
     return do_lookup(query_to_locations)
 
 
-@route(URL_ENDPOINT, method=['POST'])
+@route(URL_ENDPOINT, method=['POST', 'PUT'])
 def post_lookup():
     """
         GET method. Uses body_to_locations.
