@@ -57,6 +57,12 @@ This command:
 2. Exposes port 8080 to forward to the container's port 8080
 3. Runs the default command, which is the server at port 8080
 
+You also can just run 
+
+```
+docker-compose up -d
+```
+
 You should now be able to go to `https://localhost:8080` for all your open-route needs.
 
 ## Without Docker
